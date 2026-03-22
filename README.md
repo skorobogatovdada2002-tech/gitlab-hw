@@ -1,0 +1,43 @@
+# Домашнее задание к занятию «GitLab» — Скоробогатов Евгений
+
+---
+
+## Задание 1
+
+### Что было сделано
+
+- Развернут GitLab локально через Vagrant
+- Создан проект в GitLab
+- Запущен GitLab Runner в Docker
+- Runner успешно зарегистрирован
+
+### Скриншот
+
+![Runner](imgrunner.png)
+
+---
+
+## Задание 2
+
+### Файл .gitlab-ci.yml
+
+```yaml
+stages:
+  - test
+  - build
+
+default:
+  tags:
+    - docker
+
+test_job:
+  stage: test
+  image: alpine:latest
+  script:
+    - echo "Test stage"
+
+build_job:
+  stage: build
+  image: alpine:latest
+  script:
+    - echo "Build stage"
