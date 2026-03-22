@@ -13,7 +13,7 @@
 
 ### Скриншот
 
-![Runner](imgrunner.png)
+![Runner](runner.png)
 
 ---
 
