@@ -48,3 +48,9 @@ build_job:
   image: alpine:latest
   script:
     - echo "Build stage"
+
+### Скриншоты
+
+![Pipeline](pipeline.png)
+
+![Job](job.png)
