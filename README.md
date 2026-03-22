@@ -26,6 +26,14 @@
 - Pipeline успешно выполнен
 - Получены успешные сборки jobs
 
+### Дополнительно
+
+Репозиторий был запушен в GitLab с изменением origin:
+
+```bash
+git remote add origin http://gitlab.localdomain/root/sdvps-materials.git
+git push -u origin main
+
 ### Файл `.gitlab-ci.yml`
 
 ```yaml
